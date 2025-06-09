@@ -1,6 +1,6 @@
 streamlit as st
 pandas as pd
 feedparser
-from nsepython import nse_eq
-from streamlit_autorefresh import st_autorefresh
-from concurrent.futures import ThreadPoolExecutor
+nsepython
+streamlit_autorefresh
+concurrent.futures
