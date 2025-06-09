@@ -3,4 +3,3 @@ pandas
 feedparser
 nsepython
 streamlit_autorefresh
-concurrent
