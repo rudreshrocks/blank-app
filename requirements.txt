@@ -2,3 +2,4 @@ streamlit
 feedparser
 nsepython
 streamlit_autorefresh
+concurrent.futures
