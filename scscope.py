@@ -127,3 +127,4 @@ for sector, df in sector_data.items():
     i = (i + 1) % 3
     if i == 0:
         cols = st.columns(3)
+
