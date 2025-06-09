@@ -3,4 +3,4 @@ pandas as pd
 feedparser
 nsepython
 streamlit_autorefresh
-concurrent.futures
+concurrent
