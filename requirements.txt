@@ -1,5 +1,5 @@
-streamlit as st
-pandas as pd
+streamlit
+pandas
 feedparser
 nsepython
 streamlit_autorefresh
