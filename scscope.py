@@ -112,7 +112,7 @@ for sector, df in sector_data.items():
 
 perf_df = pd.DataFrame(sector_perf).sort_values(by="Avg Change (%)", ascending=False, key=lambda x: pd.to_numeric(x.str.replace('%', ''), errors='coerce').fillna(-999))
 st.markdown("### 📈 Sector Scope Overview")
-st.dataframe(perf_df.style.applymap(color_change, subset=["Avg Change (%)"]), use_container_width=True, height=280)
+st.dataframe(perf_df.style.map(color_change, subset=["Avg Change (%)"]), use_container_width=True, height=280)
 
 cols = st.columns(3)
 i = 0
@@ -127,4 +127,3 @@ for sector, df in sector_data.items():
     i = (i + 1) % 3
     if i == 0:
         cols = st.columns(3)
-
