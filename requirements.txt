@@ -5,4 +5,4 @@ nsepython
 streamlit_autorefresh
 SmartApi  
 smartapi-python
-
+logzero
