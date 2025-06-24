@@ -3,9 +3,4 @@ pandas
 feedparser
 nsepython
 streamlit_autorefresh
-SmartApi  
-requests
-pyotp
-time
-datetime  
-bs4
+
