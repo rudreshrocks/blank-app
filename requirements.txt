@@ -3,4 +3,5 @@ pandas
 feedparser
 nsepython
 streamlit_autorefresh
+SmartApi  
 
