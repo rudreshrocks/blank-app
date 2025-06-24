@@ -6,3 +6,4 @@ streamlit_autorefresh
 SmartApi  
 smartapi-python
 logzero
+websocket
