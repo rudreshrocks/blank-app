@@ -19,7 +19,6 @@ st.sidebar.markdown("### 📂 News Settings")
 filter_term = st.sidebar.text_input("Filter by sector or stock (e.g. BANK, RELIANCE):").strip()
 
 import streamlit as st
-from openai import OpenAI
 import yfinance as yf
 from datetime import datetime
 import pandas as pd
